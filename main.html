@@ -40,7 +40,7 @@
 			<div>
 				<p> Graduction Year</p>
 				<label id="grad-year-select">
-					<select required name="Graduction">
+					<select required name="Graduction" id="grad-year-select">
 				<option value="" disabled selected> Choose..</option>
 				<option value="2020">2020</option>
 				<option value="2021"> 2021</option>
@@ -59,9 +59,13 @@
 		<br>
 		<div>
 			<label id="conditions-checkbox">
-				<input type="checkbox">
+				<input type="checkbox" required>
 					Agree to terms and conditions
 			</label>
+		</div>
+		<br>
+		<div>
+			<button type="submit"> submit form </button>
 		</div>
 	</form>
 	
