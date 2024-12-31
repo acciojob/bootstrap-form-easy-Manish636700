@@ -3,11 +3,12 @@
 h1{
 	text-align:center;
 }
-#first{
-	display:flex;
-	justify-content: space-between;
+form{
+	width:600px;
+	height:600px;
+	border:1px solid black;
 }
-#second{
-	display:flex;
-	justify-content: space-between;
+#first{
+	display: flex;
+	justify-content: space-around;
 }
