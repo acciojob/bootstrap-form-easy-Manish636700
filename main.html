@@ -11,10 +11,10 @@
 	<form>
 		<h1>Internship Form</h1>
 		<div id="first">
-			<div id="first-name-input">
+			<label id="first-name-input">
 				<p> First Name</p>
-				<input type="text" required>
-			</div>
+				<input type="text" required id="first-name-input">
+			</label>
 			<div>
 				<p> Last Name</p>
 				<input type="text" required id="last-name-input">
@@ -31,11 +31,14 @@
 			</div>
 			<div>
 				<p> Graduction Year</p>
-				<section id="grad-year-input" required name="Graduction">
+				<select id="grad-year-input" required name="Graduction">
 				<option value="" disabled selected> Choose..</option>
-					
-				</section>
-			<https://www.svgrepo.com/show/345221/three-dots.svg/div>
+				<option value="2020">2020</option>
+				<option value="2021"> 2021</option>
+				<option value="2022"> 2022</option>
+				<option value="2023">2023</option>	
+				</select>
+			</div>
 			<div>
 				<p> Email Address</p>
 				<input type="email" required id="email-input" placeholder="xyz@abc.com">
