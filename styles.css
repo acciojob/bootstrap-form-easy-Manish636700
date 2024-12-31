@@ -12,3 +12,8 @@ form{
 	display: flex;
 	justify-content: space-between;
 }
+.invalid-feedback {
+  color: red;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+}
